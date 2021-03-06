@@ -23,6 +23,10 @@ function dim
     set_color -o 6C6C6A
 end
 
+function background_color
+    set_color -o 00363F
+end
+
 function off
     set_color -o normal
 end
