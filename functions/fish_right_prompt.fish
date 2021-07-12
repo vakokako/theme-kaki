@@ -1,5 +1,4 @@
 function fish_right_prompt
-
 	if test "$theme_complete_path" = "yes"
 		set cwd (prompt_pwd)
 	else
@@ -28,5 +27,4 @@ function fish_right_prompt
 
 	printf (yellow)"("(dim)$cwd(yellow)") "(off)
 	# printf (dim)(date +%H(yellow):(dim)%M(yellow):(dim)%S)(off)
-
 end
