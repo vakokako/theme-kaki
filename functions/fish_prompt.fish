@@ -59,5 +59,4 @@ function fish_prompt
 	else
 		echo -n -s (dim)"$symbol"(off)
 	end
-
 end

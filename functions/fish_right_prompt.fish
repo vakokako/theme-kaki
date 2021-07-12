@@ -1,3 +1,5 @@
+_load_sushi
+
 function fish_right_prompt
 	if test "$theme_complete_path" = "yes"
 		set cwd (prompt_pwd)
